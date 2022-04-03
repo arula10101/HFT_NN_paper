@@ -117,7 +117,7 @@ linestyle = next(linecycler)
 
 # Plot KDEs
 ax.set_title("Total Reward vs $Q_0$, $\gamma=2$")
-ax.set_ylabel('Total Reward Function')
+ax.set_ylabel('Total Reward')
 ax.set_xlabel('$Q_0$')
 ax.axvline(x=0, color='k', linestyle='--')  # vertical line at 0
 q0 = Q_path[:,0]
