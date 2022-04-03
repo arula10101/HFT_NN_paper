@@ -116,8 +116,8 @@ linecycler = cycle(lines)
 linestyle = next(linecycler)
 
 # Plot KDEs
-ax.set_title("Cost Function vs $Q_0$, $\gamma=2$")
-ax.set_ylabel('Cost Function')
+ax.set_title("Reward Function vs $Q_0$, $\gamma=2$")
+ax.set_ylabel('Reward Function')
 ax.set_xlabel('$Q_0$')
 ax.axvline(x=0, color='k', linestyle='--')  # vertical line at 0
 q0 = Q_path[:,0]
@@ -141,8 +141,8 @@ linecycler = cycle(lines)
 linestyle = next(linecycler)
 
 # Plot KDEs
-ax.set_title("Cost Function vs $Q_0$, $\gamma=3/2$")
-ax.set_ylabel('Cost Function')
+ax.set_title("Reward Function vs $Q_0$, $\gamma=3/2$")
+ax.set_ylabel('Reward Function')
 ax.set_xlabel('$Q_0$')
 ax.axvline(x=0, color='k', linestyle='--')  # vertical line at 0
 q0 = Q_path[:,0]
