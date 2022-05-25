@@ -47,9 +47,7 @@ def main(configs):
              n_iter=n_iter)
     
     # MODEL DICTIONARY                 
-    d = {"NN": NNSolver, 
-         "LSTMCell": LSTMCellSolver, 
-         "LSTM": LSTMSolver, 
+    d = {"NN": NNSolver,
          "HJB": CJ_HJBSolver,
          "HJB_q32": CJ_HJBSolver_q32
          }
