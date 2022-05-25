@@ -17,7 +17,7 @@ import json
 # tf.enable_eager_execution()
 # tf.reset_default_graph()
 
-from models import NNSolver, LSTMCellSolver, LSTMSolver, CJ_HJBSolver, CJ_HJBSolver_q32
+from models import NNSolver, CJ_HJBSolver, CJ_HJBSolver_q32
 from train import Solver
 from get_config import Config, hexConfig
   
