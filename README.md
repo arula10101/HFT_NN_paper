@@ -1,10 +1,15 @@
 # HFT_NN_paper
 
-Code for "Learning a functional control for high-frequency finance."
+Code for "Learning a functional control for high-frequency finance"
+by Laura Leal, Mathieu Laurière, and Charles-Albert Lehalle.  arXiv:2006.09611 (2020).
 
-by Laura Leal, Mathieu Laurière, and Charles-Albert Lehalle.  
-
-arXiv:2006.09611 (2020).
+Please cite if using any portion of this work. BibTex:
+@article{leal2020learning,
+  title={Learning a functional control for high-frequency finance},
+  author={Leal, Laura and Lauri{\`e}re, Mathieu and Lehalle, Charles-Albert},
+  journal={arXiv preprint arXiv:2006.09611},
+  year={2020}
+}
 
 
 Example of how to run the code: 
